@@ -1,0 +1,71 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 !important;
+    font-family: 'Manrope', sans-serif;
+}
+
+.container{
+    width: 90%;
+    border-radius: 10px;
+    margin: 0;
+    width: 80%; margin: 0 !important;
+    -webkit-margin-collapse: collapse;
+}
+
+.bg-image{
+    background-color: cadetblue;
+    background-image: url(./images/drawers.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position: top;
+    background-size: cover;
+    width: 90%;
+    height: 300px;
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+}
+
+/*.article{
+    padding: 25px;
+}
+
+.profile-container{
+    padding: 0 25px;
+}*/
+
+.article p{
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: rgb(90, 88, 88);
+}
+
+.title{
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.profile-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile img{
+    width: 70px;
+    border-radius: 150px;
+    margin-right: 20px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+.infos{
+    display: flex;
+    flex-direction: column;
+}
